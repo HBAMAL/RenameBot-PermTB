@@ -17,7 +17,7 @@ helpbutton = [[
 
 aboutbutton = [[
         InlineKeyboardButton(f'🤔 How To Use', callback_data="help"),
-        InlineKeyboardButton(f'Close 🔐', callback_data="close_data")
+        InlineKeyboardButton(f'Close 🔐', callback_data="close")
     ]]
 
 
@@ -48,7 +48,7 @@ async def cb_handler(bot, update):
         )
         return
 
-    elif update.data == "close_data":
+    elif update.data == "close":
         await update.message.delete()
 
         
