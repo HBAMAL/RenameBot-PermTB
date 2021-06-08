@@ -36,6 +36,7 @@ async def cb_handler(bot, update):
             reply_markup=keyboard,
             disable_web_page_preview=True
         )
+        return
 
     elif update.data == "about":
         await update.answer()
@@ -45,6 +46,7 @@ async def cb_handler(bot, update):
             reply_markup=keyboard,
             disable_web_page_preview=True
         )
+        return
 
     elif update.data == "close_data":
         await update.message.delete()
