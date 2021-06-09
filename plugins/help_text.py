@@ -26,6 +26,9 @@ from plugins.rename_file import rename_doc
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
+        InlineKeyboardButton(text="Channel", url="https://t.me/VKPROJECTS"),
+        InlineKeyboardButton(text="Support", url="https://t.mE/VKP_BOTS"),
+        ],[
         InlineKeyboardButton(text="⚙️ Help", callback_data="help"),
         InlineKeyboardButton(text="🤖 About", callback_data="about"),
         ],[
