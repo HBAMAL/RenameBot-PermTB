@@ -12,13 +12,13 @@ helpbutton = [[
         InlineKeyboardButton(f'📢CHANNEL📢', url="https://t.me/telsabots"),
         InlineKeyboardButton(f'🧑🏼‍💻DEV🧑🏼‍💻', url="https://t.me/alluaddict")
         ],[
-        InlineKeyboardButton(f'🤗ABOUT🤗', callback_data="about")
-        InlineKeyboardButton(f'🎬GROUP🎬', url='https://telegram.me/FILIMSMOVIE')
+        InlineKeyboardButton(f'🤗ABOUT🤗', callback_data="about"),
+        InlineKeyboardButton(f'🎬GROUP🎬', url='https://t.me/FILIMSMOVIE')
     ]]
 
 aboutbutton = [[
         InlineKeyboardButton(f'📢CHANNEL📢', url="https://t.me/telsabots"),
-        InlineKeyboardButton(f'🎬GROUP🎬', url='https://telegram.me/FILIMSMOVIE')
+        InlineKeyboardButton(f'🎬GROUP🎬', url='https://t.me/FILIMSMOVIE')
         ],[
         InlineKeyboardButton(f'🆘HELP🆘', callback_data="help"),
         InlineKeyboardButton(f'🔐CLOSE 🔐', callback_data="close")
