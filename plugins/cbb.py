@@ -13,7 +13,7 @@ helpbutton = [[
         InlineKeyboardButton(f'🧑🏼‍💻DEV🧑🏼‍💻', url="https://t.me/alluaddict")
         ],[
         InlineKeyboardButton(f'🤗ABOUT🤗', callback_data="about"),
-        InlineKeyboardButton(f'🎬GROUP🎬', url='https://t.me/FILIMSMOVIE')
+        InlineKeyboardButton(f'🔐CLOSE 🔐', callback_data="close")
     ]]
 
 aboutbutton = [[
