@@ -26,10 +26,12 @@ from plugins.rename_file import rename_doc
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="⚙️ Help", callback_data="help"),
-        InlineKeyboardButton(text="🤖 About", callback_data="about"),
+        InlineKeyboardButton('📢 CHANNEL📢', url='https://telegram.me/TELSABOTS'),
+        InlineKeyboardButton('🎬GROUP🎬', url='https://telegram.me/FILIMSMOVIE')
         ],[
-        InlineKeyboardButton(text="Close 🔐", callback_data="close")
+        InlineKeyboardButton('🆘HELP🆘', callback_data='help'),
+        InlineKeyboardButton('🤗ABOUT🤗', callback_data='about'),
+        InlineKeyboardButton('🔐CLOSE🔐', callback_data='close')
         ]]
     )
 
@@ -47,7 +49,7 @@ def help_user(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
         text=script.HELP_USER,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Support 👥", url="https://t.me/VKP_BOTS")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🧑🏼‍💻DEV🧑🏼‍💻", url="https://t.me/alluaddict")]]),
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
@@ -58,7 +60,7 @@ def about(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
         text=script.ABOUT_ME,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Report Bug 🐞", url="https://t.me/VkP_BOTS")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="❤️CHANNEL❤️", url="https://t.me/telsabots")]]),
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
@@ -88,9 +90,9 @@ async def rename_cb(bot, update):
     
     await bot.send_message(
         chat_id=update.chat.id,
-        text="<b>File Name</b> : <code>{}</code> \n\nSelect the desired option below 😇".format(filename),
+        text="<b>File Name</b> : <code>{}</code> \n\nSelect YOUR DESIERED OPTION".format(filename),
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="📝 RENAME 📝", callback_data="rename_button")],
-                                                [InlineKeyboardButton(text="✖️ CANCEL ✖️", callback_data="cancel_e")]]),
+                                                [InlineKeyboardButton(text="🗑 CANCEL 🗑", callback_data="cancel_e")]]),
         parse_mode="html",
         reply_to_message_id=update.message_id,
         disable_web_page_preview=True   
@@ -101,5 +103,5 @@ async def cancel_extract(bot, update):
     
     await bot.send_message(
         chat_id=update.chat.id,
-        text="Process Cancelled 🙃",
+        text="✅DONE CANCELLED",
     )
