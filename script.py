@@ -24,7 +24,7 @@ I am Telsa Rename Bot</b>
 
 <b>©️Made by @TELSABOTS</b>
 """
-    ABOUT_ME = """ <b>🧑🏼‍💻DEV🧑🏼‍💻:</b> <a href="https://t.me/alluaddict">꧁༒☬𝓗𝓑☬༒꧂</a>
-<b>📢CHANNEL📢:</b> <a href="https://t.me/TELSABOTS">🤩TELSABOTS🤩</a>
-<b>👥Group👥:</b> <a href="https://t.me/filimsmovie">🎬HB GROUP🎬</a>
-<b><u>MADE BY</u></b> @TELSABOTS"""
+    ABOUT_ME = """ <b>DEV :</b> <a href="https://t.me/alluaddict"> ꧁༒☬𝓗𝓑☬༒꧂</a>
+<b>CHANNEL :</b> <a href="https://t.me/TELSABOTS">TELSABOTS</a>
+<b>Group :</b> <a href="https://t.me/filimsmovie">HBGROUP</a>
+<b>MADE BY</b> @TELSABOTS"""
