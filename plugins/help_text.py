@@ -67,9 +67,8 @@ def about(bot, update):
     )
 
 @Client.on_message(filters.command(["bots"]))
-def upgrade(bot, update):
+def bots(bot, update):
     # logger.info(update)
-
     bot.send_message(
         chat_id=update.chat.id,
         text=script.CHANNEL_TEXT,
@@ -80,9 +79,7 @@ def upgrade(bot, update):
     )
     
 @Client.on_message(filters.command(["Group"]))
-def upgrade(bot, update):
-    # logger.info(update)
-
+def group(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
         text=script.GROUP_TEXT,
@@ -93,9 +90,7 @@ def upgrade(bot, update):
     )
     
 @Client.on_message(filters.command(["feedback"]))
-def upgrade(bot, update):
-    # logger.info(update)
-
+def feedback(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
         text=script.FEEDBACK_TEXT,
