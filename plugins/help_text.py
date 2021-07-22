@@ -94,7 +94,7 @@ def feedback(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
         text=script.FEEDBACK_TEXT,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🖋FEEDBACK🖋", url="https://t.me/alluaddict")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🧑🏼‍💻DEV🧑🏼‍💻", url="https://t.me/alluaddict")]]),
         parse_mode="html",
         reply_to_message_id=update.message_id,
         disable_web_page_preview=True
