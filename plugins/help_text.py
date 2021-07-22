@@ -49,7 +49,7 @@ def help_user(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
         text=script.HELP_USER,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🧑🏼‍💻DEV🧑🏼‍💻", url="https://t.me/alluaddict")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="CONTACT MY 🧑🏼‍💻DEV🧑🏼‍💻", url="https://t.me/alluaddict")]]),
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
@@ -60,24 +60,50 @@ def about(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
         text=script.ABOUT_ME,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="❤️CHANNEL❤️", url="https://t.me/telsabots")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="📢CHANNEL📢", url="https://t.me/telsabots")]]),
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
     )
 
-@Client.on_message(filters.command(["upgrade"]))
+@Client.on_message(filters.command(["bots"]))
 def upgrade(bot, update):
     # logger.info(update)
 
     bot.send_message(
         chat_id=update.chat.id,
-        text=script.UPGRADE_TEXT,
+        text=script.CHANNEL_TEXT,
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤖OTHER BOTS🤖", url="https://t.me/telsabots/13")]]),
         parse_mode="html",
         reply_to_message_id=update.message_id,
         disable_web_page_preview=True
     )
+    
+@Client.on_message(filters.command(["Group"]))
+def upgrade(bot, update):
+    # logger.info(update)
 
+    bot.send_message(
+        chat_id=update.chat.id,
+        text=script.GROUP_TEXT,
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🎬MOVIE GROUP🎬", url="https://t.me/filimsmovie")]]),
+        parse_mode="html",
+        reply_to_message_id=update.message_id,
+        disable_web_page_preview=True
+    )
+    
+@Client.on_message(filters.command(["feedback"]))
+def upgrade(bot, update):
+    # logger.info(update)
+
+    bot.send_message(
+        chat_id=update.chat.id,
+        text=script.FEEDBACK_TEXT,
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🖋FEEDBACK🖋", url="https://t.me/alluaddict")]]),
+        parse_mode="html",
+        reply_to_message_id=update.message_id,
+        disable_web_page_preview=True
+    )
     
 @Client.on_message(filters.private & (filters.document | filters.video | filters.audio | filters.voice | filters.video_note))
 async def rename_cb(bot, update):
