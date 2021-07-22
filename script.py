@@ -1,39 +1,27 @@
 class script(object):
-    START_TEXT = """ <b>Hai {}!!!.
-I am Simple Rename Bot!😌</b>
+    START_TEXT = """ <b>Hai {}
+I am Telsa Rename Bot</b>
 
-<code>You can rename any Telegram Document, using this bot! With Permenant Thumbnail 💯.</code>
+<code>Hey {} I can rename any Telegram Files ,videos With Permenant Thumbnail</code>
 
-<i>For More Details check Help 📜</i>
+<i>©️Made by @TELSABOTS</i>
 """
 
-    RENAME_403_ERR = "What Are You Doing? You are Banned"
-    UPGRADE_TEXT = "ITs A Free Servies"
-    DOWNLOAD_START = "Give Me Some Time..."
-    UPLOAD_START = "Starting to upload..."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "**Thank you for Using Me > ©  @VkProjects **"
-    SAVED_THUMB = "Thumbnail Saved ✅ This Is Permanent"
-    DEL_THUMB = "Thumbnail cleared succesfully!"
-    NO_THUMB = "No thumbnails found!"
-    SAVED_RECVD_DOC_FILE = "File Downloaded Successfully 😎"
+    RENAME_403_ERR = "Who the fucking shit are u 😡? You are Banned"
+    UPGRADE_TEXT = "😂NO NEED TO UPGRADE 100% Free"
+    DOWNLOAD_START = "DOWNLOADING📥"
+    UPLOAD_START = "UPLOADING TO TG..."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "**🤩Thank you for Using Me Support Our🏡 Channel @Telsabots**"
+    SAVED_THUMB = "🖼 Thumbnail ✅Saved"
+    DEL_THUMB = "🖼Thumbnail 🗑Deleted"
+    NO_THUMB = "NO 🖼 THUMBNAIL FOUND......."
+    SAVED_RECVD_DOC_FILE = "📂File Downloaded ✅Done"
     CUSTOM_CAPTION_UL_FILE = " "
-    HELP_USER = """<b>Need Help 🤔</b>
+    HELP_USER = """<b>😢Sry No One Gone Help You😢</b>
 
-<b>For Rename File</b>
-   
-<b>1.</b>Send me any Telegram File.
-<b>2.</b> Choose appropriate option.
-
-<b>For Thumbnail</b>
-
-<b>1.</b> Sent A Photo To Set As Thumnail.
-<b>2.</b> /showthumb To See Your Current Thumbnail.
-<b>3.</b> /delthumb To Delete Your Current Thumbnail.
+<b>©️Made by @TELSABOTS</b>
 """
-    ABOUT_ME = """ <b>Creator:</b> <a href="https://t.me/VivekTVP">Vivek</a>
-<b>Credits:</b> Dan for his awesome pyrogram library 🔥
-<b>Library:</b> <a href="https://docs.pyrogram.org/">Pyrogram 1.1.13</a>
-<b>Updates:</b> <a href="https://t.me/VkProjects">vk projects</a>
-<b>Server:</b> <a href="https://heroku.com">Heroku</a>
-
-<b><u>NB:</u></b> EveryOne Can Use Me.So Don't Worry🤗"""
+    ABOUT_ME = """ <b>🧑🏼‍💻DEV🧑🏼‍💻:</b> <a href="https://t.me/alluaddict">꧁༒☬𝓗𝓑☬༒꧂</a>
+<b>📢CHANNEL📢:</b> <a href="https://t.me/TELSABOTS">🤩TELSABOTS🤩</a>
+<b>👥Group👥:</b> <a href="https://t.me/filimsmovie">🎬HB GROUP🎬</a>
+<b><u>MADE BY</u></b> @TELSABOTS"""
