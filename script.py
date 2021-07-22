@@ -2,7 +2,7 @@ class script(object):
     START_TEXT = """ <b>Hai {}
 I am Telsa Rename Bot</b>
 
-<code>Hey BRO, I can rename any Telegram Files ,videos With Permenant Thumbnail</code>
+<b>Hey BRO, I can rename any Telegram Files ,videos With Permenant Thumbnail</b>
 
 <i>©️Made by @TELSABOTS</i>
 """
