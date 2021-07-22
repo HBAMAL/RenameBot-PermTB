@@ -9,15 +9,19 @@ from pyrogram.errors import UserNotParticipant
 from script import script
 
 helpbutton = [[
-        InlineKeyboardButton(f'Channel', url="https://t.me/VKPROJECTS"),
-        InlineKeyboardButton(f'Support', url="https://t.me/VKP_BOTS")
+        InlineKeyboardButton(f'📢CHANNEL📢', url="https://t.me/telsabots"),
+        InlineKeyboardButton(f'🧑🏼‍💻DEV🧑🏼‍💻', url="https://t.me/alluaddict")
         ],[
-        InlineKeyboardButton(f'🤖 About', callback_data="about")
+        InlineKeyboardButton(f'🤗ABOUT🤗', callback_data="about")
+        InlineKeyboardButton(f'🎬GROUP🎬', url='https://telegram.me/FILIMSMOVIE')
     ]]
 
 aboutbutton = [[
-        InlineKeyboardButton(f'🤔 How To Use', callback_data="help"),
-        InlineKeyboardButton(f'Close 🔐', callback_data="close")
+        InlineKeyboardButton(f'📢CHANNEL📢', url="https://t.me/telsabots"),
+        InlineKeyboardButton(f'🎬GROUP🎬', url='https://telegram.me/FILIMSMOVIE')
+        ],[
+        InlineKeyboardButton(f'🆘HELP🆘', callback_data="help"),
+        InlineKeyboardButton(f'🔐CLOSE 🔐', callback_data="close")
     ]]
 
 
